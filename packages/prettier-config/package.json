@@ -1,5 +1,5 @@
 {
-    "name": "@sadang/prettier-config",
+    "name": "@dwell_the/prettier-config",
     "version": "0.0.0",
     "description": "",
     "main": "index.json",
@@ -18,5 +18,8 @@
     },
     "homepage": "<github url>",
     "keywords": [],
-    "license": "MIT"
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    }
 }

@@ -1,5 +1,5 @@
 {
-    "name": "@sadang/tsconfig",
+    "name": "@dwell_the/tsconfig",
     "version": "0.0.0",
     "scripts": {
         "version": "pnpm version",
