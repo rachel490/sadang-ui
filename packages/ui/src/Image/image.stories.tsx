@@ -1,4 +1,5 @@
-import {Image, RATIO_MAP, BaseImageProps} from '.'
+import type {BaseImageProps} from '.';
+import {Image, RATIO_MAP} from '.'
 
 const meta = {
     title: 'base/image',

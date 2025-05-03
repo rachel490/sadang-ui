@@ -15,7 +15,7 @@ export function Button({children, size = 'md', full = false, ...restProps}: Butt
         <button
             className={cx('button', {
                 [`${size}`]: true,
-                full: full,
+                full,
             })}
             {...restProps}
         >
