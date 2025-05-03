@@ -3,6 +3,7 @@
     "version": "0.0.0",
     "description": "",
     "main": "index.json",
+    "type": "module",
     "scripts": {
         "version": "pnpm version",
         "deploy": "pnpm publish"
