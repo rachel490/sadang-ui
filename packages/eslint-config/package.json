@@ -50,5 +50,8 @@
     },
     "peerDependencies": {
         "eslint": ">=9"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
