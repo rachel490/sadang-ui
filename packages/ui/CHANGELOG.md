@@ -1,5 +1,11 @@
 # @sadang-new/ui
 
+## 0.0.5
+
+### Patch Changes
+
+- 9b818e3: 이미지 수정
+
 ## 0.0.4
 
 ### Patch Changes
