@@ -1,5 +1,11 @@
 # @sadang-new/ui
 
+## 0.0.6
+
+### Patch Changes
+
+- 151cc75: 테스트
+
 ## 0.0.5
 
 ### Patch Changes
