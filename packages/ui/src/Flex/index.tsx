@@ -18,17 +18,21 @@ export function Flex({
     justify = 'center',
     align = 'center',
     gap = 'sm',
+    className,
     ...props
 }: FlexProps) {
     return (
         <div
-            className={cx({
-                flex: true,
-                [`direction-${direction}`]: true,
-                [`justify-${justify}`]: true,
-                [`align-${align}`]: true,
-                [`gap-${gap}`]: true,
-            })}
+            className={cx(
+                {
+                    flex: true,
+                    [`direction-${direction}`]: Boolean(direction),
+                    [`justify-${justify}`]: Boolean(justify),
+                    [`align-${align}`]: Boolean(align),
+                    [`gap-${gap}`]: Boolean(gap),
+                },
+                className,
+            )}
             {...props}
         >
             {children}

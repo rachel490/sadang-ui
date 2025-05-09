@@ -18,8 +18,8 @@ export interface BaseImageProps extends React.ImgHTMLAttributes<HTMLImageElement
 
 export function Image({src, size = '1:1', ...props}: BaseImageProps) {
     return (
-        <div className={cx('img-container', {[`${RATIO_MAP[size]}`]: true})} {...props}>
-            <img src={src} loading="lazy" />
+        <div className={cx('img-container', {[`${RATIO_MAP[size]}`]: true})}>
+            <img src={src} loading="lazy" {...props} />
         </div>
     )
 }
