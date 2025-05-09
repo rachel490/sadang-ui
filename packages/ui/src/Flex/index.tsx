@@ -12,15 +12,7 @@ export interface FlexProps extends HTMLAttributes<HTMLDivElement> {
     gap?: 'none' | 'xs' | 'sm' | 'md' | 'lg' | 'xl'
 }
 
-export function Flex({
-    children,
-    direction = 'row',
-    justify = 'center',
-    align = 'center',
-    gap = 'sm',
-    className,
-    ...props
-}: FlexProps) {
+export function Flex({children, direction, justify, align, gap, className, ...props}: FlexProps) {
     return (
         <div
             className={cx(
