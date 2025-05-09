@@ -23,16 +23,14 @@ export function Flex({
 }: FlexProps) {
     return (
         <div
-            className={cx(
-                {
-                    flex: true,
-                    [`direction-${direction}`]: Boolean(direction),
-                    [`justify-${justify}`]: Boolean(justify),
-                    [`align-${align}`]: Boolean(align),
-                    [`gap-${gap}`]: Boolean(gap),
-                },
+            className={cx({
+                flex: true,
+                [`direction-${direction}`]: Boolean(direction),
+                [`justify-${justify}`]: Boolean(justify),
+                [`align-${align}`]: Boolean(align),
+                [`gap-${gap}`]: Boolean(gap),
                 className,
-            )}
+            })}
             {...props}
         >
             {children}
