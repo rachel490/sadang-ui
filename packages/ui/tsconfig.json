@@ -1,5 +1,5 @@
 {
-    "extends": "@sadang/tsconfig/base.json",
+    "extends": "@dwell_the/tsconfig/base.json",
     "compilerOptions": {
         "baseUrl": "."
     },

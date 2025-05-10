@@ -18,7 +18,7 @@
         "@storybook/addon-webpack5-compiler-swc": "^1.0.3",
         "@storybook/blocks": "^8.1.6",
         "@storybook/react-webpack5": "^8.1.6",
-        "@sadang/tsconfig": "workspace:^",
+        "@dwell_the/tsconfig": "workspace:^",
         "@dwell_the/ui": "workspace:^",
         "@types/node": "^20.8.6",
         "@types/react": "^18.2.28",

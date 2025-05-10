@@ -6,6 +6,8 @@
     "license": "MIT",
     "sideEffects": false,
     "types": "./dist/index.d.mts",
+    "type": "module",
+    "module": "./dist/index.mjs",
     "exports": {
         ".": {
             "types": "./dist/index.d.mts",
@@ -30,7 +32,7 @@
         "react-dom": ">=18"
     },
     "devDependencies": {
-        "@sadang/tsconfig": "workspace:^",
+        "@dwell_the/tsconfig": "workspace:^",
         "@types/react": "^18.2.28",
         "@types/react-dom": "^18.2.13"
     },
